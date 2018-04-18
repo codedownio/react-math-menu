@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(1.2538735,0,0,1.2720325,-143.794,-288.29103)"
+     id="text3172"
+     style="font-size:32.00000381px;font-style:normal;font-weight:normal;line-height:0%;letter-spacing:0.25600001px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+    <path
+       d="m 145.63006,312.12796 0,-2.98125 11.98125,-1.51875 0,-66.09376 -2.86875,0 c -4.91252,7e-5 -9.03752,0.11257 -12.375,0.3375 -3.33751,0.22507 -5.70001,0.48757 -7.0875,0.7875 l -1.51875,11.75625 -3.76875,0 0,-17.71875 66.37501,0 0,17.71875 -3.825,0 -1.51876,-11.75625 c -0.67506,-0.14993 -1.67818,-0.28118 -3.00937,-0.39375 -1.33131,-0.11243 -2.87818,-0.21555 -4.64063,-0.30937 -1.76255,-0.0937 -3.68442,-0.16868 -5.76562,-0.225 -2.0813,-0.0562 -4.20942,-0.0843 -6.38438,-0.0844 l -2.75625,0 0,65.98126 11.98125,1.51875 0,2.98125 z"
+       id="path4486"
+       style="font-size:115.20001221px;font-variant:normal;font-stretch:normal;font-family:Liberation Serif;-inkscape-font-specification:Liberation Serif" />
+  </g>
+</svg>

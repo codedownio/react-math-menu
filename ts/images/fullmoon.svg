@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <path
+     d="m 103.50716,57.332397 c 0,10.52128 -4.105861,20.529357 -11.547762,27.971232 C 84.645818,92.74551 74.509453,96.85136 64.11655,96.85136 53.595226,96.85136 43.587174,92.74551 36.145267,85.303629 28.831789,77.861754 24.597581,67.853677 24.597581,57.332397 c 0,-10.521216 4.234208,-20.529376 11.547686,-27.971149 7.441907,-7.441914 17.449959,-11.547763 27.971283,-11.547763 10.392903,0 20.529268,4.105849 27.842848,11.547763 7.441901,7.441773 11.547762,17.449811 11.547762,27.971149 z M 32.372941,25.45031 c -8.51088,8.510964 -13.239149,19.993863 -13.239149,31.882087 0,11.888294 4.728269,23.371213 13.239149,31.882099 8.37575,8.375789 19.858784,13.104054 31.747008,13.104054 11.888224,0 23.371136,-4.728265 31.746867,-13.104054 8.375874,-8.510886 13.104044,-19.993805 13.104044,-31.882099 0,-11.888224 -4.72817,-23.371123 -13.104044,-31.882087 -8.375731,-8.37575 -19.858643,-13.104044 -31.746867,-13.104044 -11.888224,0 -23.371258,4.728294 -31.747008,13.104044 z"
+     id="g0-35-1"
+     style="fill:#000000" />
+</svg>

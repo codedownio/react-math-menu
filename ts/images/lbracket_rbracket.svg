@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(0.62031439,0,0,0.52688544,-103.45816,-112.78258)"
+     id="text2991"
+     style="font-size:32px;font-style:normal;font-weight:normal;line-height:0%;letter-spacing:0.25599998px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+    <path
+       d="m 197.89194,444.71683 0,-218.4961 51.39756,0 0,6.0586 -34.39901,5.28515 0,195.8086 34.39901,5.28515 0,6.0586 z"
+       id="path3318"
+       style="font-size:264px;font-variant:normal;font-stretch:normal;font-family:Liberation Serif;-inkscape-font-specification:Liberation Serif" />
+    <path
+       d="m 290.64388,444.71683 0,-6.0586 34.78762,-5.28515 0,-195.8086 -34.78762,-5.28515 0,-6.0586 51.78618,0 0,218.4961 z"
+       id="path3320"
+       style="font-size:264px;font-variant:normal;font-stretch:normal;font-family:Liberation Serif;-inkscape-font-specification:Liberation Serif" />
+  </g>
+</svg>

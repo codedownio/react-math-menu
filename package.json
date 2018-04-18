@@ -1,0 +1,28 @@
+{
+    "name": "react-math-menu",
+    "version": "1.0.0",
+    "description": "Math menu for LaTeX editor",
+    "main": "./ts/index.ts",
+    "types": "./ts/libs/types.d.ts",
+    "author": "Tom McLaughlin",
+    "dependencies": {
+        "@types/react": "^16.0.19",
+        "@types/react-dom": "^16.0.2",
+        "material-ui": "^1.0.0-beta.42",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.2",
+        "react-numeric-input": "^2.2.0"
+    },
+    "devDependencies": {
+        "file-loader": "^1.1.11",
+        "source-map-loader": "^0.2.3",
+        "ts-loader": "^4.2.0",
+        "typescript": "^2.8.1",
+        "webpack": "^4.6.0",
+        "webpack-bundle-analyzer": "^2.11.1",
+        "webpack-cli": "^2.0.14",
+        "webpack-config-assign": "^1.0.0",
+        "webpack-notifier": "^1.6.0",
+        "yargs": "^11.0.0"
+    }
+}

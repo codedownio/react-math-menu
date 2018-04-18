@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <g
+     transform="scale(8,8)"
+     id="text3164"
+     style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000aa;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10">
+    <path
+       d="m 1.5681349,14.927203 5.1855469,-13.8769529 1.8359375,0 5.1855467,13.8769529 -1.923828,0 C 11.323984,13.501423 10.829193,12.1733 10.366963,10.942828 l -5.7519531,0 c -0.5924509,1.621096 -1.0872421,2.94922 -1.484375,3.984375 z m 3.4863281,-5.1757811 4.8730469,0 C 9.3285433,8.0977829 8.8776974,6.836391 8.5749708,5.9672422 8.2722292,5.0981114 8.0199508,4.3461591 7.8181349,3.7113829 7.6163054,3.0766291 7.515394,2.6746113 7.5154005,2.5053282 l -0.019531,0 C 7.4958628,2.6355488 7.4291311,2.9220069 7.295674,3.3647032 7.1622043,3.8074226 6.991306,4.3315106 6.7829787,4.9369688 6.5746398,5.5424469 6.2572573,6.4360007 5.8308302,7.6176329 5.4043935,8.7992796 5.1456047,9.5105419 5.054463,9.7514219 z"
+       id="path3169"
+       style="fill:#0000aa" />
+  </g>
+</svg>

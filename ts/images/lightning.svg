@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <g
+     transform="matrix(5.6258042,0,0,5.6258042,4.8397568,-5806.3501)"
+     id="layer1">
+    <g
+       transform="matrix(1.0511554,0,0,1.0511554,-5.1125299,-53.022188)"
+       id="text3002"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:wasy10;-inkscape-font-specification:wasy10 Bold">
+      <path
+         d="m 15.606398,1046.3968 0.976562,0 c 0.123691,0 0.221347,0.036 0.292969,0.1074 0.07161,0.072 0.107415,0.1693 0.107422,0.293 -7e-6,0.1172 -0.03256,0.2083 -0.09766,0.2734 l -2.978516,3.3399 c -0.07162,0.085 -0.17904,0.1269 -0.322266,0.1269 -0.201826,0 -0.328779,-0.1204 -0.380859,-0.3613 l -0.462518,-3.3789 c -3e-6,-0.098 0.0358,-0.1855 0.107422,-0.2637 0.07812,-0.085 0.162757,-0.1302 0.253906,-0.1367 l 1.261836,0 2.261339,-4.3422 -5.684688,0 c -0.04557,0 -0.107423,-0.013 -0.185547,-0.039 -0.14323,-0.1041 -0.214845,-0.2246 -0.214844,-0.3613 -10e-7,-0.046 0.01302,-0.1074 0.03906,-0.1855 l 3.314628,-6.7819 c 0.08463,-0.1432 0.205074,-0.2149 0.361328,-0.2149 0.104162,0 0.457729,0.1594 0.535859,0.2444 0.08463,0.078 0.126948,0.1693 0.126953,0.2734 -5e-6,0.052 -0.01628,0.1107 -0.04883,0.1758 l -2.844845,5.8239 5.728323,0 c 0.09114,0 0.156242,0.013 0.195312,0.039 0.136711,0.065 0.20507,0.1855 0.205078,0.3613 -8e-6,0.02 -0.01628,0.078 -0.04883,0.1758 l -2.517666,4.8312"
+         id="path3009" />
+    </g>
+  </g>
+</svg>

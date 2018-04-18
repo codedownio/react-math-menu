@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <path
+     d="m 51.225203,57.603078 c 0,15.786772 8.694061,30.503245 21.40368,39.734484 0.669011,0.535104 1.070375,1.20407 1.204051,1.873004 0,2.809504 -2.577248,2.781634 -5.108806,3.010864 C 54.488966,103.51037 41.643802,98.44016 32.35936,89.310406 23.858515,80.808326 19.164646,69.497958 19.212973,57.603078 19.264813,44.784582 23.839949,34.672614 32.21264,25.748877 40.401069,17.512365 53.860947,11.028211 68.749126,12.78457 c 2.657274,0.313472 5.083808,0.401408 5.083808,3.210886 -0.133632,0.802784 -0.535104,1.471648 -1.204051,1.873037 -12.709619,9.231277 -21.40368,23.947846 -21.40368,39.734585 z m -5.351398,0 c 0,-14.98407 7.681209,-29.490457 18.250208,-39.658188 -9.299495,0.101888 -19.822202,3.204294 -28.411303,11.973177 -8.321376,8.877997 -11.217222,19.38969 -11.112985,27.685011 0.139584,11.106548 4.503168,20.377197 11.23799,27.559949 7.582541,7.603411 17.451399,11.704243 28.011296,11.823181 C 53.280013,86.818458 45.873805,72.587194 45.873805,57.603078 z"
+     id="g0-37" />
+</svg>

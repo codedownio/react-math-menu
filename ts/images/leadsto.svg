@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <path
+     d="m 109.93072,64.076525 -5.07698,0 c -14.143026,0 -21.324018,12.828806 -33.653894,12.828806 -7.494585,0 -12.587097,-4.382598 -18.631091,-11.272857 C 47.008211,59.104896 39.400512,51.126758 29.367334,51.126758 19.21337,51.126758 11.960518,59.104896 6.4,65.632474 c -0.362624,0.483584 -0.604416,0.967027 -0.604416,1.571488 0,1.208806 2.0917504,3.127424 3.42144,3.127424 0.604416,0 1.32969,-0.241792 1.813216,-0.846132 6.044045,-6.890278 10.842515,-11.98279 18.337094,-11.98279 7.494573,0 12.941991,5.802323 18.86521,12.692602 5.560544,6.527564 13.289133,13.08608 23.322202,13.08608 14.143129,0 20.969216,-12.949767 33.298984,-12.949767 l 5.07698,0 c -5.43954,4.8352 -9.67039,10.879303 -12.329769,17.769491 l 6.229039,0 c 3.38462,-8.824326 9.91229,-16.666041 18.37443,-20.896908 -8.46214,-4.230887 -14.98981,-12.072711 -18.37443,-20.89698 l -6.229033,0 c 2.659383,6.890234 6.890233,12.934228 12.329773,17.769543 z"
+     id="g0-59" />
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <g
+     transform="scale(8,8)"
+     id="text3017"
+     style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000aa;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10">
+    <path
+       d="m 1,15 0,-0.674699 c 1.1432379,1e-6 1.8460484,-0.377955 2.1084337,-1.133869 L 7.1378849,1.4685408 c 0.037476,-0.137425 0.1405553,-0.2061442 0.309237,-0.206158 l 0.2436412,0 C 7.8594303,1.2623966 7.9625092,1.3311158 8,1.4685408 l 4.207497,12.2476572 c 0.118685,0.268631 0.345147,0.437305 0.679385,0.506024 0.334213,0.06871 0.751213,0.10308 1.251004,0.103079 l 0,0.674699 -5.3507374,0 0,-0.674699 c 1.0620169,1e-6 1.5930294,-0.171798 1.5930394,-0.515394 l 0,-0.09371 -1.0401612,-2.998661 -4.6572959,0 -0.8621151,2.473895 c -0.012498,0.04373 -0.018745,0.109328 -0.018741,0.196788 -3.4e-6,0.318609 0.1514913,0.554441 0.4544847,0.707496 0.3029855,0.153058 0.6294019,0.229586 0.9792503,0.229585 l 0,0.674699 z m 3.9076305,-4.947791 4.2074967,0 -2.1084337,-6.1285142 z"
+       id="path3022"
+       style="fill:#0000aa" />
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(-5.9583402,0,0,5.9596784,127.3659,0.54027645)"
+     id="text3320"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:msbm10;-inkscape-font-specification:msbm10 Bold" />
+  <path
+     d="m 64,12.8 c -28.14137,0 -51.2,23.058605 -51.2,51.2 0,28.141389 23.05863,51.2 51.2,51.2 28.141389,0 51.4,-23.058611 51.4,-51.2 C 115.4,35.858605 92.141389,12.8 64,12.8 z m 0,5.8 c 24.918106,0 45.8,20.357894 45.8,45.4 0,25.042118 -20.881773,45.4 -45.8,45.4 C 39.081798,109.4 18.6,88.918144 18.6,64 18.6,39.08185 39.081914,18.6 64,18.6 z m 1.663821,20.138048 c -14.405223,0 -24.357927,12.565997 -24.357927,25.605037 0,13.039097 9.607309,25.118867 24.682042,25.118867 7.243923,0 14.604582,-4.191104 17.502182,-11.99223 0.334336,-0.668768 0.648224,-1.488717 0.648224,-2.2688 l 0,-0.486208 c -0.222784,-0.557248 -2.13431,-1.36834 -2.691596,-1.36834 -1.78306,0 -2.390074,3.950996 -3.727316,5.622663 -2.395667,3.704928 -6.832166,5.645203 -10.759148,5.505689 C 55.154579,84.055334 50.916614,73.876678 50.916614,64.180998 c 0,-9.138457 3.702637,-18.582041 14.261037,-20.757356 l 0.972339,0 c 2.309831,0 7.334746,-0.155712 11.010279,3.187545 -2.568282,-0.13952 -5.280256,1.693792 -5.280256,5.090298 0,3.283603 2.703104,5.191193 5.83831,5.191193 3.135226,0 5.285619,-3.153478 5.285619,-6.162432 l 0,-0.810284 C 81.889504,41.450106 71.904755,38.738048 65.663821,38.738048 z"
+     id="g1-99" />
+</svg>
