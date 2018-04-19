@@ -12,7 +12,9 @@ import {getActiveJax} from "./Common";
 
 import {IMatrixItem} from "./Types";
 
-import NumericInput from "react-numeric-input";
+// Use require instead of import here because this needs to work with a Gatsby app, which doesn't
+// always understand ES6 imports (see https://github.com/gatsbyjs/gatsby/issues/2641)
+const NumericInput = require("react-numeric-input");
 
 export interface IMatrixModalProps {
   requestClose: () => void;
@@ -34,8 +36,8 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
     super(props);
 
     this.state = {
-      rows: 1,
-      columns: 1,
+      rows: 2,
+      columns: 2,
       decoration: "None",
     };
   }
