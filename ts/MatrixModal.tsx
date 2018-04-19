@@ -10,10 +10,13 @@ import Select from "material-ui/Select";
 
 import {getActiveJax} from "./Common";
 
+import {IMatrixItem} from "./Types";
+
 import NumericInput from "react-numeric-input";
 
 export interface IMatrixModalProps {
   requestClose: () => void;
+  onInsertMatrix: (matrix: IMatrixItem) => void;
   open: boolean;
 }
 
@@ -54,10 +57,11 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
       command = "Vmatrix";
     }
 
-    let math = getActiveJax();
-    if (!math) return;
-
-    math.insertMatrixAtCursor(this.state.rows, this.state.columns, command);
+    this.props.onInsertMatrix({
+      rows: this.state.rows,
+      columns: this.state.columns,
+      command
+    });
 
     this.props.requestClose();
   }

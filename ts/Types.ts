@@ -17,3 +17,9 @@ export interface IMathMenuItem {
 
   isSeparator?: boolean;
 }
+
+export interface IMatrixItem {
+  rows: number;
+  columns: number;
+  command: string;
+}

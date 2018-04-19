@@ -10,7 +10,7 @@ import Tooltip from "material-ui/Tooltip";
 import {MathIconMenu} from "./MathIconMenu";
 import {MatrixModal} from "./MatrixModal";
 
-import {IMathMenuItem} from "./Types";
+import {IMathMenuItem, IMatrixItem} from "./Types";
 
 import {getActiveJax} from "./Common";
 
@@ -22,6 +22,7 @@ export interface IMathMenuProps {
   mathWidgetsState: any;
   open: boolean;
   onInsertItem: (item: IMathMenuItem) => void;
+  onInsertMatrix: (matrix: IMatrixItem) => void;
   style: React.CSSProperties;
 }
 
@@ -180,7 +181,8 @@ export default class MathMenu extends React.PureComponent<IMathMenuProps, IMathM
           {this.getMenuButtons()}
 
           <MatrixModal open={this.state.matrixModalOpen}
-                       requestClose={() => this.closeMatrixModal()}/>
+                       requestClose={() => this.closeMatrixModal()}
+                       onInsertMatrix={(matrix) => this.props.onInsertMatrix(matrix)} />
       </div>
     );
   }
