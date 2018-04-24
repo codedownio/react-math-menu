@@ -38,7 +38,7 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
     this.state = {
       rows: 2,
       columns: 2,
-      decoration: "None",
+      decoration: "[x]",
     };
   }
 
