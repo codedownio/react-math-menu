@@ -1,4 +1,5 @@
 
+import equal from "fast-deep-equal";
 import * as React from "react";
 
 import {mathMenuData} from "./MathMenuData";
@@ -31,7 +32,7 @@ export interface IMathMenuState {
   matrixModalOpen: boolean;
 }
 
-export default class MathMenu extends React.PureComponent<IMathMenuProps, IMathMenuState> {
+export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuState> {
 
   constructor(props) {
     super(props);
@@ -40,6 +41,13 @@ export default class MathMenu extends React.PureComponent<IMathMenuProps, IMathM
       hasLoaded: false,
       matrixModalOpen: false
     };
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return (this.props.open !== nextProps.open) ||
+           (this.props.style !== nextProps.style) ||
+           (this.props.mathWidgetsState !== nextProps.mathWidgetsState) ||
+           (!equal(this.state, nextState));
   }
 
   componentWillReceiveProps(nextProps) {
@@ -162,7 +170,7 @@ export default class MathMenu extends React.PureComponent<IMathMenuProps, IMathM
       paddingBottom: 0,
       opacity: 1,
       transition: "opacity 0.3s 0.3s",
-      display: this.props.open ? "block" : "none",
+      visibility: this.props.open ? "visible" : "hidden",
       borderTop: "solid 2px #ddd", // @borderGray
       backgroundColor: "white",
       ...this.props.style
