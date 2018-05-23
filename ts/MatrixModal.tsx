@@ -2,13 +2,10 @@
 import * as React from "react";
 
 import Button from "material-ui/Button";
-import Dialog, { DialogActions, DialogContent, DialogContentText, DialogTitle } from "material-ui/Dialog";
-import {FormControl, FormControlLabel, FormGroup} from "material-ui/Form";
-import {InputLabel} from "material-ui/Input";
+import Dialog, { DialogActions, DialogContent, DialogTitle } from "material-ui/Dialog";
+import {FormControl} from "material-ui/Form";
 import {MenuItem} from "material-ui/Menu";
 import Select from "material-ui/Select";
-
-import {getActiveJax} from "./Common";
 
 import {IMatrixItem} from "./Types";
 

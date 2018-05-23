@@ -5,7 +5,6 @@ import * as React from "react";
 import {mathMenuData} from "./MathMenuData";
 
 import IconButton from "material-ui/IconButton";
-import {MenuItem} from "material-ui/Menu";
 import Tooltip from "material-ui/Tooltip";
 
 import {MathIconMenu} from "./MathIconMenu";
