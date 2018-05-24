@@ -1,10 +1,10 @@
 
 import * as React from "react";
 
-import IconButton from "material-ui/IconButton";
-import {MenuItem} from "material-ui/Menu";
-import Popover from "material-ui/Popover";
-import Tooltip from "material-ui/Tooltip";
+import IconButton from "@material-ui/core/IconButton";
+import MenuItem from "@material-ui/core/MenuItem";
+import Popover from "@material-ui/core/Popover";
+import Tooltip from "@material-ui/core/Tooltip";
 
 export interface IMathIconMenuProps {
   iconButtonElement: any;

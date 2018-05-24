@@ -4,8 +4,8 @@ import * as React from "react";
 
 import {mathMenuData} from "./MathMenuData";
 
-import IconButton from "material-ui/IconButton";
-import Tooltip from "material-ui/Tooltip";
+import IconButton from "@material-ui/core/IconButton";
+import Tooltip from "@material-ui/core/Tooltip";
 
 import {MathIconMenu} from "./MathIconMenu";
 import {MatrixModal} from "./MatrixModal";
