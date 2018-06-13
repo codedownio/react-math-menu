@@ -19,15 +19,13 @@ declare var MathJax;
 type SpecialCommands = "show_matrix_modal" | "not_inside_matrix";
 
 export interface IMathMenuProps {
-  mathWidgetsState: any;
-  open: boolean;
+  chordInProgress?: string[];
+  currentChordOptions?: string[];
   onInsertItem: (item: IMathMenuItem) => void;
   onInsertMatrix: (matrix: IMatrixItem) => void;
-  style: React.CSSProperties;
 }
 
 export interface IMathMenuState {
-  hasLoaded: boolean;
   matrixModalOpen: boolean;
 }
 
@@ -37,29 +35,19 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
     super(props);
 
     this.state = {
-      hasLoaded: false,
       matrixModalOpen: false
     };
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    return (this.props.open !== nextProps.open) ||
-           (this.props.style !== nextProps.style) ||
-           (this.props.mathWidgetsState !== nextProps.mathWidgetsState) ||
+    return (this.props.chordInProgress !== nextProps.chordInProgress) ||
+           (this.props.currentChordOptions !== nextProps.currentChordOptions) ||
            (!equal(this.state, nextState));
   }
 
-  componentWillReceiveProps(nextProps) {
-    // Flip the hasLoaded flag to true the first time the menu appears
-    if (nextProps.open && !this.state.hasLoaded) {
-      this.setState({...this.state, hasLoaded: true});
-    }
-  }
-
   getChordMessage() {
-    let mathWidgetsState = this.props.mathWidgetsState;
-    if (!mathWidgetsState.chordInProgress || !mathWidgetsState.currentChordOptions) return null;
-    return mathWidgetsState.chordInProgress.join(" ") + " Options:  " + mathWidgetsState.currentChordOptions.join(" ");
+    if (!this.props.chordInProgress || !this.props.currentChordOptions) return null;
+    return this.props.chordInProgress.join(" ") + " Options:  " + this.props.currentChordOptions.join(" ");
   }
 
   onButtonClick(item, event) {
@@ -169,16 +157,12 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
       paddingBottom: 0,
       opacity: 1,
       transition: "opacity 0.3s 0.3s",
-      visibility: this.props.open ? "visible" : "hidden",
       borderTop: "solid 2px #ddd", // @borderGray
-      backgroundColor: "white",
-      ...this.props.style
+      backgroundColor: "white"
     };
   }
 
   render() {
-    if (!this.state.hasLoaded) return <div></div>;
-
     return (
       <div className="math-menu"
            style={this.getStyle()}>
