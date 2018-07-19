@@ -69,9 +69,6 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
 
       iconButtons.push(
         <Tooltip title={item.tex}
-                 style={{
-                   display: "inline-block"
-                 }}
                  key={i}>
             <IconButton className="math-menu-button"
                         data-title={item.tex}

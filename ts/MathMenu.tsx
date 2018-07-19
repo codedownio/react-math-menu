@@ -91,7 +91,6 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
       } else {
         buttons.push(
           <Tooltip title={button.name}
-                   style={{ display: "inline-block" }}
                    key={button.name + "_" + i}>
               <IconButton onClick={(event) => this.onButtonClick(button, event)}
                           data-title={button.name}>
