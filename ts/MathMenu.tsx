@@ -1,5 +1,4 @@
 
-import equal from "fast-deep-equal";
 import * as React from "react";
 
 import {mathMenuData} from "./MathMenuData";
@@ -39,10 +38,10 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
     };
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate(nextProps: IMathMenuProps, nextState: IMathMenuState) {
     return (this.props.chordInProgress !== nextProps.chordInProgress) ||
            (this.props.currentChordOptions !== nextProps.currentChordOptions) ||
-           (!equal(this.state, nextState));
+           (!(this.state.matrixModalOpen === nextState.matrixModalOpen));
   }
 
   getChordMessage() {
