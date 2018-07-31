@@ -4,7 +4,8 @@ import * as React from "react";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import Popover from "@material-ui/core/Popover";
-import Tooltip from "@material-ui/core/Tooltip";
+
+import Tooltip from "./Tooltip";
 
 export interface IMathIconMenuProps {
   iconButtonElement: any;
