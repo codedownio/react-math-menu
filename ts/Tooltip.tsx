@@ -24,7 +24,7 @@ interface ITooltipProps {
        | "top";
 }
 
-export default class CustomTooltip extends React.Component<ITooltipProps, {}> {
+export default class CustomTooltip extends React.PureComponent<ITooltipProps, {}> {
 
   render() {
     return (
