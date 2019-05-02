@@ -29,6 +29,22 @@ export interface IMathMenuState {
   matrixModalOpen: boolean;
 }
 
+const separatorButtonStyle: React.CSSProperties = {
+  display: "inline-block",
+  backgroundColor: "lightgray",
+  width: "2px",
+  boxShadow: "inset 1px 0 0px 0px #f1f1f1",
+  height: "36px",
+  marginTop: "4px",
+  marginBottom: "4px",
+  lineHeight: "36px",
+  verticalAlign: "middle",
+};
+
+const standaloneImageButtonStyle: React.CSSProperties = {width: "24px", height: "24px"};
+
+const menuIconImageStyle: React.CSSProperties = {width: "24px", height: "24px"};
+
 export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuState> {
 
   constructor(props) {
@@ -74,17 +90,7 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
       } else if (button.isSeparator) {
         buttons.push(
           <div key={"separator_" + i}
-               style={{
-                 display: "inline-block",
-                 backgroundColor: "lightgray",
-                 width: "2px",
-                 boxShadow: "inset 1px 0 0px 0px #f1f1f1",
-                 height: "36px",
-                 marginTop: "4px",
-                 marginBottom: "4px",
-                 lineHeight: "36px",
-                 verticalAlign: "middle",
-               }}>
+               style={separatorButtonStyle}>
               <div className="separator"></div>
           </div>
         );
@@ -95,7 +101,7 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
               <IconButton onClick={(event) => this.onButtonClick(button, event)}
                           data-title={button.name}>
                   <img src={button.icon}
-                       style={{width: "24px", height: "24px"}} />
+                       style={standaloneImageButtonStyle} />
               </IconButton>
           </Tooltip>
         );
@@ -115,7 +121,7 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
       buttons.push(
         <MathIconMenu className="math-icon-menu"
                       iconButtonElement={<img src={button.icon}
-                                              style={{width: "24px", height: "24px"}} />}
+                                              style={menuIconImageStyle} />}
                       title={button.name}
                       button={button}
                       onButtonClick={this.onButtonClick.bind(this)}

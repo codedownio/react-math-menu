@@ -28,6 +28,12 @@ export interface IMatrixModalState {
   columns: number;
 }
 
+const formControlStyle: React.CSSProperties = {width: "100%"};
+const selectInputProps = {
+  name: "decoration",
+  id: "decoration",
+};
+
 export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixModalState> {
 
   static decorationOptions = ["None", "[x]", "(x)", "{x}", "|x|", "||x||"];
@@ -42,7 +48,7 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
     };
   }
 
-  doInsert() {
+  doInsert = () => {
     let command = "matrix";
 
     let decoration = this.state.decoration;
@@ -85,6 +91,11 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
     return items;
   }
 
+  handleRowsChange = (valueAsNumber, valueAsString, input) => this.setState({...this.state, rows: valueAsNumber});
+  handleColumnsChange = (valueAsNumber, valueAsString, input) => this.setState({...this.state, columns: valueAsNumber});
+
+  handleDecorationChange = (event) => this.setState({...this.state, decoration: event.target.value});
+
   render() {
     return (
       <Dialog className="matrix-modal"
@@ -96,25 +107,22 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
                   <h3>Rows</h3>
                   <NumericInput className="rows-input"
                                 value={this.state.rows}
-                                onChange={(valueAsNumber, valueAsString, input) => this.setState({...this.state, rows: valueAsNumber})} />
+                                onChange={this.handleRowsChange} />
 
                   <br />
 
                   <h3>Columns</h3>
                   <NumericInput className="columns-input"
                                 value={this.state.columns}
-                                onChange={(valueAsNumber, valueAsString, input) => this.setState({...this.state, columns: valueAsNumber})} />
+                                onChange={this.handleColumnsChange} />
               </div>
 
               <h3>Decoration</h3>
-              <FormControl style={{width: "100%"}}>
+              <FormControl style={formControlStyle}>
                   <Select className="decoration-select"
-                          inputProps={{
-                            name: "decoration",
-                            id: "decoration",
-                          }}
+                          inputProps={selectInputProps}
                           value={this.state.decoration}
-                          onChange={(event) => this.setState({...this.state, decoration: event.target.value})}>
+                          onChange={this.handleDecorationChange}>
                       {this.getDecorationOptions()}
                   </Select>
               </FormControl>
@@ -122,10 +130,10 @@ export class MatrixModal extends React.PureComponent<IMatrixModalProps, IMatrixM
 
           <DialogActions>
               <Button className=""
-                      onClick={(event) => this.props.requestClose()}>Cancel</Button>
+                      onClick={this.props.requestClose}>Cancel</Button>
               <Button className="confirm-button"
                       color="primary"
-                      onClick={(event) => this.doInsert()}>Insert</Button>
+                      onClick={this.doInsert}>Insert</Button>
           </DialogActions>
       </Dialog>
     );

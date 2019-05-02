@@ -24,16 +24,19 @@ interface ITooltipProps {
        | "top";
 }
 
+const popperClasses = {popper: "tooltip-popper", tooltip: "tooltip-text"};
+const popperProps = {
+  style: {opacity: 1}
+};
+
 export default class CustomTooltip extends React.PureComponent<ITooltipProps, {}> {
 
   render() {
     return (
       <Tooltip.default title={this.props.title}
                        placement={this.props.placement}
-                       classes={{popper: "tooltip-popper", tooltip: "tooltip-text"}}
-                       PopperProps={{
-                         style: {opacity: 1}
-                       }}>
+                       classes={popperClasses}
+                       PopperProps={popperProps}>
           {this.props.children}
       </Tooltip.default>
     );

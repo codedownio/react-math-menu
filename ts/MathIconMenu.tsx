@@ -4,6 +4,7 @@ import * as React from "react";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import Popover from "@material-ui/core/Popover";
+import {PopoverOrigin} from "@material-ui/core/Popover";
 
 import Tooltip from "./Tooltip";
 
@@ -20,6 +21,32 @@ export interface IMathIconMenuState {
   anchor?: HTMLElement;
 }
 
+const texStyle: React.CSSProperties = {
+  fontFamily: "monospace",
+  float: "right",
+  marginLeft: "1em"
+};
+
+const imageStyle: React.CSSProperties = {width: "24px", height: "24px"};
+
+const textButtonContainerStyle: React.CSSProperties = {
+  maxHeight: "50vh"
+};
+
+const iconButtonContainerStyle: React.CSSProperties = {
+  maxWidth: (7 * 48) + "px",
+  maxHeight: "50vh"
+};
+
+const outerStyle: React.CSSProperties = {
+  display: "inline-block"
+};
+
+const anchorOrigin: PopoverOrigin = {horizontal: "left", vertical: "top"};
+const transformOrigin: PopoverOrigin = {horizontal: "left", vertical: "bottom"};
+
+const popoverClasses = { paper: "math-menu-paper" };
+
 export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathIconMenuState> {
   constructor(props) {
     super(props);
@@ -30,7 +57,7 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
     this.setState({...this.state, open: true, anchor: event.currentTarget });
   }
 
-  requestClose() {
+  requestClose = () => {
     this.setState({...this.state, open: false});
   }
 
@@ -50,11 +77,7 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
                   }}
                   key={i}>
             {item.name} <span className="text-span"
-                              style={{
-                                fontFamily: "monospace",
-                                float: "right",
-                                marginLeft: "1em"
-                              }}>({item.tex})</span>
+                              style={texStyle}>({item.tex})</span>
         </MenuItem>
       );
     }
@@ -80,7 +103,7 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
                             this.props.onButtonClick(item, event);
                         }}>
                 <img src={item.icon}
-                     style={{width: "24px", height: "24px"}}/>
+                     style={imageStyle}/>
             </IconButton>
         </Tooltip>
       );
@@ -92,18 +115,13 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
   getPopoverContent(button) {
     if (button.type === "text") {
       return (
-        <div style={{
-          maxHeight: "50vh"
-        }}>
+        <div style={textButtonContainerStyle}>
             {this.getTextButtons(button)}
         </div>
       );
     } else {
       return (
-        <div style={{
-          maxWidth: (7 * 48) + "px",
-          maxHeight: "50vh"
-        }}>
+        <div style={iconButtonContainerStyle}>
             {this.getIconButtons(button)}
         </div>
       );
@@ -115,9 +133,7 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
 
     return (
       <div className={this.props.className}
-           style={{
-             display: "inline-block"
-           }}>
+           style={outerStyle}>
           <Tooltip title={this.props.title}>
               <IconButton className="math-menu-button"
                           data-title={this.props.title}
@@ -129,12 +145,10 @@ export class MathIconMenu extends React.PureComponent<IMathIconMenuProps, IMathI
           <Popover className="math-menu-popover"
                    open={this.state.open}
                    anchorEl={this.state.anchor}
-                   classes={{
-                     paper: "math-menu-paper"
-                   }}
-                   anchorOrigin={{horizontal: "left", vertical: "top"}}
-                   transformOrigin={{horizontal: "left", vertical: "bottom"}}
-                   onClose={(event) => this.requestClose()}>
+                   classes={popoverClasses}
+                   anchorOrigin={anchorOrigin}
+                   transformOrigin={transformOrigin}
+                   onClose={this.requestClose}>
               {this.getPopoverContent(button)}
           </Popover>
       </div>
