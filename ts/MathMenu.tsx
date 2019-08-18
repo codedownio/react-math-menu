@@ -63,7 +63,12 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
 
   getChordMessage() {
     if (!this.props.chordInProgress || !this.props.currentChordOptions) return null;
-    return this.props.chordInProgress.join(" ") + " Options:  " + this.props.currentChordOptions.join(" ");
+    return (
+      <span>
+          <span className="b">{this.props.chordInProgress.join(" ")}</span>
+          <span className="ml2">Options: + {this.props.currentChordOptions.join(" ")}</span>
+      </span>
+    );
   }
 
   onButtonClick(item, event) {
