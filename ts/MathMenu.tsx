@@ -14,10 +14,6 @@ import {IMathMenuItem, IMatrixItem} from "./Types";
 
 import {getActiveJax} from "./Common";
 
-declare var MathJax;
-
-type SpecialCommands = "show_matrix_modal" | "not_inside_matrix";
-
 export interface IMathMenuProps {
   chordInProgress?: string[];
   currentChordOptions?: string[];
