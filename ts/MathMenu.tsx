@@ -19,6 +19,7 @@ export interface IMathMenuProps {
   currentChordOptions?: string[];
   onInsertItem: (item: IMathMenuItem) => void;
   onInsertMatrix: (matrix: IMatrixItem) => void;
+  backgroundColor?: string;
 }
 
 export interface IMathMenuState {
@@ -164,7 +165,7 @@ export default class MathMenu extends React.Component<IMathMenuProps, IMathMenuS
       opacity: 1,
       transition: "opacity 0.3s 0.3s",
       borderTop: "solid 2px #ddd", // @borderGray
-      backgroundColor: "white"
+      backgroundColor: this.props.backgroundColor || "white"
     };
   }
 
